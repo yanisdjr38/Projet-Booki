@@ -391,6 +391,9 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  h3 {
+    font-size: smaller;
+  }
   .hebergements-and-populaires {
     flex-direction: column;
   }
@@ -443,6 +446,10 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
+
+  h3 {
+    font-size: larger;
+  }
 
   .main-container {
     width: 100%;
