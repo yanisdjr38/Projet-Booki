@@ -238,7 +238,7 @@ article.filters {
 }
 .hebergements-cards .card {
   width: 30%;
-  max-height: 207px;
+  height: 207px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
