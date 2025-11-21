@@ -75,6 +75,16 @@ h3 {
   margin: 2px;
 }
 
+/****** Menu ***********/
+.search-menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
 /****** Header ***********/
 
 header {
@@ -410,6 +420,7 @@ footer {
     gap: 15px;
     padding-top: 10px;
     flex-direction: column;
+    width: 100%;
   }
 
   .hebergements {
