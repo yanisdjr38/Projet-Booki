@@ -200,6 +200,10 @@ article.filters {
   font-size: 17px;
 }
 
+.filter h3 {
+  margin: 10px;
+}
+
 .info {
   display: flex;
   align-items: center;
