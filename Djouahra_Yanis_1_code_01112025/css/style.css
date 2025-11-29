@@ -158,7 +158,7 @@ input[type="text"] {
   cursor: pointer;
 }
 .search-bar input[type="text"] {
-  flex: 1;
+  width: 100%;
   height: 45px;
   border: none;
   outline: none;
@@ -188,7 +188,7 @@ article.filters {
   cursor: pointer;
   padding: 4px 19px 4px 19px;
   font-size: 17px;
-  border: 2px solid #d9d9d9;
+  border: 2px solid var(--main-bg-color);
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -504,7 +504,7 @@ footer {
     gap: 0px;
     height: 50px;
 
-    border-bottom: 1px solid #d9d9d9;
+    border-bottom: 1px solid var(--main-bg-color);
     width: 100%;
   }
 
@@ -557,10 +557,6 @@ footer {
     width: 100%;
   }
 
-  .search-bar {
-    width: 100%;
-  }
-
   .search-button {
     display: none;
   }
@@ -578,8 +574,8 @@ footer {
     border: none;
     background-color: var(--main-color);
     font-size: 20px;
-    height: 100%;
-    width: 10%;
+    height: 49px;
+    width: 49px;
     cursor: pointer;
     border-radius: 25%;
   }
