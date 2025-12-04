@@ -381,7 +381,13 @@ h2.section-title {
 }
 
 .card-content-activities {
-  margin: 10px;
+  height: 20%;
+  width: 90%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 /***** Footer ***********/
 footer {
@@ -633,7 +639,7 @@ footer {
     width: 90%;
   }
 
-  .activities-cards-section .activities-card {
+  .activities-card {
     width: 100%;
     height: 200px;
   }
@@ -641,6 +647,13 @@ footer {
   .activities-card img {
     height: 140px;
   }
+
+  .card-content-activities {
+    height: 59px;
+    width: 100%;
+  }
+
+  /* Footer Section */
 
   footer {
     width: 100%;
